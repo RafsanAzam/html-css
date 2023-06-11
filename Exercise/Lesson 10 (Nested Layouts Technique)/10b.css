@@ -1,0 +1,55 @@
+p {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+.main {
+  font-family: Arial;
+  width: 600px;
+  object-position: center;
+}
+
+.main-1 {
+  margin-bottom: 15px;
+}
+.cat-picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+.type, .demand {
+  color: rgb(137, 143, 156);
+}
+.cat-dp, .cat-info, .follow {
+  display: inline-block;
+  vertical-align: middle
+}
+
+.cat-dp {
+  margin-right: 15px;
+}
+
+.cat-info {
+  width: 100px;
+  margin-right: 100px;
+  vertical-align: middle;
+}
+
+.name {
+  font-weight: bold;
+}
+.follow {
+  vertical-align: middle;
+}
+
+button {
+  background-color: rgb(0, 172, 238);
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-radius: 6px;
+}
