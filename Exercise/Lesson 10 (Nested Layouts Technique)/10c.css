@@ -1,0 +1,31 @@
+.main {
+  font-family: Roboto;
+}
+.thumbnail-info {
+  width: 600px;
+  margin-bottom: 5px;
+}
+img {
+  width: 150px;
+}
+
+.thumbnail, .info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.title {
+  font-weight: 500;
+  width: 230px;
+  margin-bottom: 8px;
+}
+
+.channel, .details {
+  color: rgb(118, 121, 129);
+  font-size: 10px;
+  margin-bottom: 4px;
+}
+
+.thumbnail {
+  margin-right: 5px;
+}
