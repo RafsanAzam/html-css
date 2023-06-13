@@ -11,6 +11,7 @@
      .main-grid {
       display: grid;
       grid-template-columns: 200px 200px 200px;
+      column-gap: 20px;
      }
 
      .secondary-grid {
@@ -18,6 +19,11 @@
       grid-template-columns: 35px 1fr;
       align-items: center;
       column-gap: 5px;
+      margin-bottom: 10px;
+     }
+
+     .profile {
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
      }
      .dp {
       width: 30px;
@@ -28,18 +34,68 @@
       width: 200px;
       height: 220px;
      }
+
+     .name, .secondary-grid {
+      margin-left: 12px;
+     }
+
+     .name {
+      font-weight: bold;
+      margin-bottom: 5px;
+     }
+
+     .mutual {
+      color: rgb(118, 121, 129);
+     }
+
+     button {
+      background-color: #2f55a4;
+      border: none;
+      color: white;
+      padding-left: 16px;
+      padding-right: 16px;
+      padding-top: 12px;
+      padding-bottom: 12px;
+      margin-left: 12px;
+      margin-bottom: 12px;
+      border-radius: 4px;
+     }
     </style>
   </head>
   <body>
     <div class="main-grid">
       <div class="profile">
         <img src="cat.jpg" alt="">
-        <p>
+        <p class="name">
           Oliver
         </p>
         <div class="secondary-grid">
           <img class="dp" src="dog2.jpg" alt="">
-          <p>2 mutual friends</p>
+          <p class="mutual">2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img src="cat2.jpg" alt="">
+        <p class="name">
+          Mimi
+        </p>
+        <div class="secondary-grid">
+          <img class="dp" src="dog2.jpg" alt="">
+          <p class="mutual">3 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+
+      <div class="profile">
+        <img src="dog.jpg" alt="">
+        <p class="name">
+          Rex
+        </p>
+        <div class="secondary-grid">
+          <img class="dp" src="dog2.jpg" alt="">
+          <p class="mutual">4 mutual friends</p>
         </div>
         <button>Add Friend</button>
       </div>
