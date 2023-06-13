@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Grid</title>
+    <style>
+      .grid-check {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        column-gap: 20px;
+        row-gap: 20px;
+      }
+
+      .grid-check-2 {
+        background-color: lightpink;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid-check">
+      <div class="grid-check-2">col 1</div>
+      <div class="grid-check-2">col 2</div>
+      <div class="grid-check-2">col 3</div>
+      <div class="grid-check-2">col 4</div>
+      <div class="grid-check-2">col 1</div>
+      <div class="grid-check-2">col 2</div>
+      <div class="grid-check-2">col 3</div>
+      <div class="grid-check-2">col 4</div>
+    </div>
+  </body>
+</html>
