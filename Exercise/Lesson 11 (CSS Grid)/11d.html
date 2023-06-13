@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cat you may know</title>
+    <style>
+      p {
+        font-family: Arial;
+        margin-top: 0px;
+        margin-bottom: 0px;
+      }
+     .main-grid {
+      display: grid;
+      grid-template-columns: 200px 200px 200px;
+     }
+
+     .secondary-grid {
+      display: grid;
+      grid-template-columns: 35px 1fr;
+      align-items: center;
+      column-gap: 5px;
+     }
+     .dp {
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+     }
+     img {
+      width: 200px;
+      height: 220px;
+     }
+    </style>
+  </head>
+  <body>
+    <div class="main-grid">
+      <div class="profile">
+        <img src="cat.jpg" alt="">
+        <p>
+          Oliver
+        </p>
+        <div class="secondary-grid">
+          <img class="dp" src="dog2.jpg" alt="">
+          <p>2 mutual friends</p>
+        </div>
+        <button>Add Friend</button>
+      </div>
+    </div>
+  </body>
+</html>
